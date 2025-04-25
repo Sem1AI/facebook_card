@@ -1,0 +1,16 @@
+{
+  "name": "fb-card-bot",
+  "version": "1.0.0",
+  "description": "CLI add thẻ Facebook từ Telegram Bot",
+  "main": "index.js",
+  "bin": {
+    "fbcardbot": "./index.js"
+  },
+  "scripts": {
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "node-telegram-bot-api": "^0.61.0",
+    "puppeteer": "^21.3.8"
+  }
+}
